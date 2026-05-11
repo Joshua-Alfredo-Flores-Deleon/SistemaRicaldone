@@ -1,4 +1,4 @@
-/*import maestroModel from "../models/profesoresModel.js";
+import maestroModel from "../models/profesoresModel.js";
 import bcryptjs from "bcryptjs";
 import jsonwebtoken from "jsonwebtoken";
 import config from "../../config.js";
@@ -60,4 +60,4 @@ loginMaestroController.login = async (req, res) => {
     return res.status(500).json({ message: "Internal Server Error" });
   }
 };
-export default loginMaestroController;*/
+export default loginMaestroController;

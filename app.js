@@ -26,9 +26,9 @@ app.use(express.json());
 
 app.use("/api/estudiantes", estudianteRoute);
 app.use("/api/estudiantes/register", estudianteRegisterRoute);
-/*app.use("/api/estudiantes/login", loginEstudiantesRoute);
+app.use("/api/estudiantes/login", loginEstudiantesRoute);
 app.use("/api/maestros/login", LoginMaestroRoute);
-app.use("/api/logout", logoutRoute);*/
+app.use("/api/logout", logoutRoute);
 app.use("/api/especialidades", especialidadesRoute);
 app.use("/api/materias", materiasRoute);
 app.use("/api/matricula", matriculaRoute);

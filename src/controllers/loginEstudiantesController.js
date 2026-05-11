@@ -1,4 +1,4 @@
-/*import estudiantesModel from "../models/estudiantesModel.js";
+import estudiantesModel from "../models/estudiantesModel.js";
 import bcryptjs from "bcryptjs";
 import jsonwebtoken from "jsonwebtoken";
 import config from "../../config.js";
@@ -60,4 +60,4 @@ loginController.login = async (req, res) => {
     return res.status(500).json({ message: "Internal Server Error" });
   }
 };
-export default loginController;*/
+export default loginController;
